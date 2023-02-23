@@ -7,5 +7,5 @@ set -e
 # when solr-precreate has not yet run.
 CORENAME=${SOLR_CORENAME:-collection1}
 if [ -d /var/solr/data/${CORENAME}/conf ]; then
-    cp /solr-conf/conf/* /var/solr/data/${CORENAME}/conf
+    cp /solr-conf/conf/*.xml /var/solr/data/${CORENAME}/conf/
 fi

@@ -5,13 +5,14 @@ It follows the [Ibexa 4.4 configuration](https://doc.ibexa.co/en/4.4/search/solr
 
 ## Installation on Ibexa 4.4
 
-1. `ddev get ddev/ddev-drupal9-solr && ddev restart`
+1. `ddev get ddev/ddev-ibexa4-solr && ddev restart`
 
 1. `ddev restart`
 
 
-## Explanation
+## Configure your ibexa project
 
+https://doc.ibexa.co/en/4.4/search/solr_search_engine/#step-1-configure-and-start-solr
 
 ## Alternate Core Name
 
